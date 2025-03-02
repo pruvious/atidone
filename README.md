@@ -2,8 +2,8 @@
 
 A Nuxt + Pruvious demo hosted on Cloudflare Workers with Cloudflare D1 database.
 
-Based on: https://github.com/atinux/atidone
-Demo: https://pruvious-atidone.murisceman.workers.dev
+- Based on: https://github.com/atinux/atidone
+- Demo: https://pruvious-atidone.murisceman.workers.dev
 
 ## Deployment Guide
 
