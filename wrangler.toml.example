@@ -1,0 +1,27 @@
+name = "pruvious-atidone"
+main = ".output/server/index.mjs"
+assets = { directory = ".output/public" }
+workers_dev = true
+
+compatibility_flags = [ "nodejs_compat" ]
+compatibility_date = "2024-11-03"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "pruvious_atidone"
+database_id = "ENTER_DATABASE_ID_FOR_PRUVIOUS_ATIDONE"
+
+[[d1_databases]]
+binding = "LOGS"
+database_name = "pruvious_atidone_log"
+database_id = "ENTER_DATABASE_ID_FOR_PRUVIOUS_ATIDONE_LOG"
+
+[[r2_buckets]]
+binding = "UPLOADS"
+bucket_name = "pruvious-atidone"
+
+[observability]
+enabled = true
+
+[placement]
+mode = "smart"

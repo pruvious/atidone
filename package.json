@@ -1,0 +1,31 @@
+{
+  "name": "@pruvious/atidone",
+  "description": "A simple demo project for Pruvious v4 that shows how to use collections, fields, and authentication features.",
+  "homepage": "https://pruvious.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pruvious/atidone.git"
+  },
+  "author": "Muris Ceman <hello@pruvious.com>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt/ui": "2.21.0",
+    "@pruvious/utils": "https://pkg.pr.new/pruvious/pruvious/@pruvious/utils@ea76d9b11f54ae6785fb32d1c0cd7c9aaa2aef4b",
+    "nuxt": "3.15.2",
+    "pruvious": "https://pkg.pr.new/pruvious/pruvious/pruvious@ea76d9b11f54ae6785fb32d1c0cd7c9aaa2aef4b",
+    "vue": "latest",
+    "vue-router": "latest"
+  },
+  "devDependencies": {
+    "std-env": "3.8.0"
+  },
+  "packageManager": "pnpm@9.7.0+sha512.dc09430156b427f5ecfc79888899e1c39d2d690f004be70e05230b72cb173d96839587545d09429b55ac3c429c801b4dc3c0e002f653830a420fa2dd4e3cf9cf"
+}
