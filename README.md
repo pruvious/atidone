@@ -5,6 +5,24 @@ A Nuxt + Pruvious demo hosted on Cloudflare Workers with Cloudflare D1 database.
 - Based on: https://github.com/atinux/atidone
 - Demo: https://pruvious-atidone.murisceman.workers.dev
 
+## Getting Started
+
+1. Install dependencies:
+
+   ```bash
+   pnpm i
+   ```
+
+2. Start the development server:
+
+   ```bash
+   pnpm dev
+   ```
+
+3. Create your admin account:
+   - Visit [http://localhost:3000/dashboard](http://localhost:3000/dashboard) in your browser
+   - Follow the registration process
+
 ## Deployment Guide
 
 ### Prerequisites
