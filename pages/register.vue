@@ -27,10 +27,11 @@
 </template>
 
 <script setup lang="ts">
-import { _, isLoggedIn, pruviousPost, storeAuthToken } from '#pruvious/client'
+import { _, isLoggedIn, pfetch, storeAuthToken } from '#pruvious/client'
 import type { Collections } from '#pruvious/server'
 import type { Form, FormSubmitEvent } from '#ui/types'
-import { isArray } from '@pruvious/utils'
+import { isArray, isString } from '@pruvious/utils'
+import { FetchError } from 'ofetch'
 
 definePageMeta({
   middleware: [
@@ -62,29 +63,36 @@ const toast = useToast()
 async function onSubmit(event: FormSubmitEvent<Schema>) {
   form.value!.clear()
 
-  // Types for custom routes are a work in progress
-  const response = await pruviousPost('register' as any, {
+  await pfetch('/api/register', {
+    method: 'post',
     body: event.data,
   })
-
-  if (response.success) {
-    storeAuthToken(response.data.token)
-    await navigateTo('/')
-  } else if (
-    response.error.statusCode === 422 &&
-    isArray(response.error.data)
-  ) {
-    form.value!.setErrors(
-      Object.entries(response.error.data[0]!).map(([path, message]) => ({
-        path,
-        message,
-      }))
-    )
-  } else {
-    toast.add({
-      title: response.error.message ?? _('Something went wrong'),
-      color: 'red',
+    .then(async ({ token }) => {
+      storeAuthToken(token)
+      await navigateTo('/')
     })
-  }
+    .catch(
+      ({
+        statusCode,
+        statusMessage,
+        data,
+      }: FetchError<Record<string, string>>) => {
+        if (statusCode === 422 && isArray(data?.data)) {
+          form.value!.setErrors(
+            Object.entries(data.data[0]!).map(([path, message]) => ({
+              path,
+              message,
+            }))
+          )
+        } else {
+          toast.add({
+            title: isString(data?.message)
+              ? data.message
+              : statusMessage ?? _('Something went wrong'),
+            color: 'red',
+          })
+        }
+      }
+    )
 }
 </script>
