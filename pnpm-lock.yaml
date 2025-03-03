@@ -12,14 +12,14 @@ importers:
         specifier: 2.21.0
         version: 2.21.0(change-case@5.4.4)(focus-trap@7.6.4)(magicast@0.3.5)(rollup@4.34.9)(typescript@5.8.2)(vite@6.2.0(@types/node@22.13.8)(jiti@2.4.2)(terser@5.39.0)(yaml@2.7.0))(vue@3.5.13(typescript@5.8.2))
       '@pruvious/utils':
-        specifier: https://pkg.pr.new/pruvious/pruvious/@pruvious/utils@ea76d9b11f54ae6785fb32d1c0cd7c9aaa2aef4b
-        version: https://pkg.pr.new/pruvious/pruvious/@pruvious/utils@ea76d9b11f54ae6785fb32d1c0cd7c9aaa2aef4b
+        specifier: https://pkg.pr.new/pruvious/pruvious/@pruvious/utils@89bc440595c533098380ee06f3115946ed2ef36b
+        version: https://pkg.pr.new/pruvious/pruvious/@pruvious/utils@89bc440595c533098380ee06f3115946ed2ef36b
       nuxt:
         specifier: 3.15.2
         version: 3.15.2(@parcel/watcher@2.5.1)(@types/node@22.13.8)(better-sqlite3@11.8.1)(db0@0.2.4(better-sqlite3@11.8.1))(ioredis@5.5.0)(magicast@0.3.5)(rollup@4.34.9)(terser@5.39.0)(typescript@5.8.2)(vite@6.2.0(@types/node@22.13.8)(jiti@2.4.2)(terser@5.39.0)(yaml@2.7.0))(yaml@2.7.0)
       pruvious:
-        specifier: https://pkg.pr.new/pruvious/pruvious/pruvious@ea76d9b11f54ae6785fb32d1c0cd7c9aaa2aef4b
-        version: https://pkg.pr.new/pruvious/pruvious/pruvious@ea76d9b11f54ae6785fb32d1c0cd7c9aaa2aef4b(change-case@5.4.4)(fuse.js@7.1.0)(magicast@0.3.5)(rollup@4.34.9)(typescript@5.8.2)(vite@6.2.0(@types/node@22.13.8)(jiti@2.4.2)(terser@5.39.0)(yaml@2.7.0))(vue@3.5.13(typescript@5.8.2))
+        specifier: https://pkg.pr.new/pruvious/pruvious/pruvious@89bc440595c533098380ee06f3115946ed2ef36b
+        version: https://pkg.pr.new/pruvious/pruvious/pruvious@89bc440595c533098380ee06f3115946ed2ef36b(change-case@5.4.4)(fuse.js@7.1.0)(magicast@0.3.5)(rollup@4.34.9)(typescript@5.8.2)(vite@6.2.0(@types/node@22.13.8)(jiti@2.4.2)(terser@5.39.0)(yaml@2.7.0))(vue@3.5.13(typescript@5.8.2))
       vue:
         specifier: latest
         version: 3.5.13(typescript@5.8.2)
@@ -948,6 +948,7 @@ packages:
   '@img/sharp-wasm32@0.33.5':
     resolution: {integrity: sha512-ykUW4LVGaMcU9lu9thv85CbRMAwfeadCJHRsg2GmeRa/cJxsVY9Rbd57JcMxBkKHag5U/x7TSBpScF4U8ElVzg==}
     engines: {node: ^18.17.0 || ^20.3.0 || >=21.0.0}
+    cpu: [wasm32]
 
   '@img/sharp-win32-ia32@0.33.5':
     resolution: {integrity: sha512-T36PblLaTwuVJ/zw/LaH0PdZkRz5rd3SmMHX8GSmR7vtNSP5Z6bQkExdSK7xGWyxLw4sUknBuugTelgw2faBbQ==}
@@ -1188,24 +1189,24 @@ packages:
   '@popperjs/core@2.11.8':
     resolution: {integrity: sha512-P1st0aksCrn9sGZhp8GMYwBnQsbvAWsZAX44oXNNvLHGqAOcoVxmjZiohstwQ7SqKnbR47akdNi+uleWD8+g6A==}
 
-  '@pruvious/i18n@https://pkg.pr.new/pruvious/pruvious/@pruvious/i18n@ea76d9b11f54ae6785fb32d1c0cd7c9aaa2aef4b':
-    resolution: {tarball: https://pkg.pr.new/pruvious/pruvious/@pruvious/i18n@ea76d9b11f54ae6785fb32d1c0cd7c9aaa2aef4b}
+  '@pruvious/i18n@https://pkg.pr.new/pruvious/pruvious/@pruvious/i18n@89bc440595c533098380ee06f3115946ed2ef36b':
+    resolution: {tarball: https://pkg.pr.new/pruvious/pruvious/@pruvious/i18n@89bc440595c533098380ee06f3115946ed2ef36b}
     version: 1.0.0
 
-  '@pruvious/orm@https://pkg.pr.new/pruvious/pruvious/@pruvious/orm@ea76d9b11f54ae6785fb32d1c0cd7c9aaa2aef4b':
-    resolution: {tarball: https://pkg.pr.new/pruvious/pruvious/@pruvious/orm@ea76d9b11f54ae6785fb32d1c0cd7c9aaa2aef4b}
+  '@pruvious/orm@https://pkg.pr.new/pruvious/pruvious/@pruvious/orm@89bc440595c533098380ee06f3115946ed2ef36b':
+    resolution: {tarball: https://pkg.pr.new/pruvious/pruvious/@pruvious/orm@89bc440595c533098380ee06f3115946ed2ef36b}
     version: 1.0.0
 
-  '@pruvious/storage@https://pkg.pr.new/pruvious/pruvious/@pruvious/storage@ea76d9b11f54ae6785fb32d1c0cd7c9aaa2aef4b':
-    resolution: {tarball: https://pkg.pr.new/pruvious/pruvious/@pruvious/storage@ea76d9b11f54ae6785fb32d1c0cd7c9aaa2aef4b}
+  '@pruvious/storage@https://pkg.pr.new/pruvious/pruvious/@pruvious/storage@89bc440595c533098380ee06f3115946ed2ef36b':
+    resolution: {tarball: https://pkg.pr.new/pruvious/pruvious/@pruvious/storage@89bc440595c533098380ee06f3115946ed2ef36b}
     version: 1.0.0
 
-  '@pruvious/ui@https://pkg.pr.new/pruvious/pruvious/@pruvious/ui@ea76d9b11f54ae6785fb32d1c0cd7c9aaa2aef4b':
-    resolution: {tarball: https://pkg.pr.new/pruvious/pruvious/@pruvious/ui@ea76d9b11f54ae6785fb32d1c0cd7c9aaa2aef4b}
+  '@pruvious/ui@https://pkg.pr.new/pruvious/pruvious/@pruvious/ui@89bc440595c533098380ee06f3115946ed2ef36b':
+    resolution: {tarball: https://pkg.pr.new/pruvious/pruvious/@pruvious/ui@89bc440595c533098380ee06f3115946ed2ef36b}
     version: 1.0.0
 
-  '@pruvious/utils@https://pkg.pr.new/pruvious/pruvious/@pruvious/utils@ea76d9b11f54ae6785fb32d1c0cd7c9aaa2aef4b':
-    resolution: {tarball: https://pkg.pr.new/pruvious/pruvious/@pruvious/utils@ea76d9b11f54ae6785fb32d1c0cd7c9aaa2aef4b}
+  '@pruvious/utils@https://pkg.pr.new/pruvious/pruvious/@pruvious/utils@89bc440595c533098380ee06f3115946ed2ef36b':
+    resolution: {tarball: https://pkg.pr.new/pruvious/pruvious/@pruvious/utils@89bc440595c533098380ee06f3115946ed2ef36b}
     version: 2.0.0
 
   '@redocly/ajv@8.11.2':
@@ -3780,8 +3781,8 @@ packages:
   protocols@2.0.2:
     resolution: {integrity: sha512-hHVTzba3wboROl0/aWRRG9dMytgH6ow//STBZh43l/wQgmMhYhOFi0EHWAPtoCz9IAUymsyP0TSBHkhgMEGNnQ==}
 
-  pruvious@https://pkg.pr.new/pruvious/pruvious/pruvious@ea76d9b11f54ae6785fb32d1c0cd7c9aaa2aef4b:
-    resolution: {tarball: https://pkg.pr.new/pruvious/pruvious/pruvious@ea76d9b11f54ae6785fb32d1c0cd7c9aaa2aef4b}
+  pruvious@https://pkg.pr.new/pruvious/pruvious/pruvious@89bc440595c533098380ee06f3115946ed2ef36b:
+    resolution: {tarball: https://pkg.pr.new/pruvious/pruvious/pruvious@89bc440595c533098380ee06f3115946ed2ef36b}
     version: 4.0.0
 
   pump@3.0.2:
@@ -6302,33 +6303,33 @@ snapshots:
 
   '@popperjs/core@2.11.8': {}
 
-  '@pruvious/i18n@https://pkg.pr.new/pruvious/pruvious/@pruvious/i18n@ea76d9b11f54ae6785fb32d1c0cd7c9aaa2aef4b':
+  '@pruvious/i18n@https://pkg.pr.new/pruvious/pruvious/@pruvious/i18n@89bc440595c533098380ee06f3115946ed2ef36b':
     dependencies:
-      '@pruvious/utils': https://pkg.pr.new/pruvious/pruvious/@pruvious/utils@ea76d9b11f54ae6785fb32d1c0cd7c9aaa2aef4b
+      '@pruvious/utils': https://pkg.pr.new/pruvious/pruvious/@pruvious/utils@89bc440595c533098380ee06f3115946ed2ef36b
 
-  '@pruvious/orm@https://pkg.pr.new/pruvious/pruvious/@pruvious/orm@ea76d9b11f54ae6785fb32d1c0cd7c9aaa2aef4b':
+  '@pruvious/orm@https://pkg.pr.new/pruvious/pruvious/@pruvious/orm@89bc440595c533098380ee06f3115946ed2ef36b':
     dependencies:
-      '@pruvious/i18n': https://pkg.pr.new/pruvious/pruvious/@pruvious/i18n@ea76d9b11f54ae6785fb32d1c0cd7c9aaa2aef4b
-      '@pruvious/utils': https://pkg.pr.new/pruvious/pruvious/@pruvious/utils@ea76d9b11f54ae6785fb32d1c0cd7c9aaa2aef4b
+      '@pruvious/i18n': https://pkg.pr.new/pruvious/pruvious/@pruvious/i18n@89bc440595c533098380ee06f3115946ed2ef36b
+      '@pruvious/utils': https://pkg.pr.new/pruvious/pruvious/@pruvious/utils@89bc440595c533098380ee06f3115946ed2ef36b
       better-sqlite3: 11.8.1
       ohash: 1.1.5
       pathe: 2.0.3
 
-  '@pruvious/storage@https://pkg.pr.new/pruvious/pruvious/@pruvious/storage@ea76d9b11f54ae6785fb32d1c0cd7c9aaa2aef4b':
+  '@pruvious/storage@https://pkg.pr.new/pruvious/pruvious/@pruvious/storage@89bc440595c533098380ee06f3115946ed2ef36b':
     dependencies:
       '@aws-sdk/client-s3': 3.717.0
-      '@pruvious/utils': https://pkg.pr.new/pruvious/pruvious/@pruvious/utils@ea76d9b11f54ae6785fb32d1c0cd7c9aaa2aef4b
+      '@pruvious/utils': https://pkg.pr.new/pruvious/pruvious/@pruvious/utils@89bc440595c533098380ee06f3115946ed2ef36b
       pathe: 2.0.3
     transitivePeerDependencies:
       - aws-crt
 
-  '@pruvious/ui@https://pkg.pr.new/pruvious/pruvious/@pruvious/ui@ea76d9b11f54ae6785fb32d1c0cd7c9aaa2aef4b(change-case@5.4.4)(fuse.js@7.1.0)(magicast@0.3.5)(rollup@4.34.9)(typescript@5.8.2)(vite@6.2.0(@types/node@22.13.8)(jiti@2.4.2)(terser@5.39.0)(yaml@2.7.0))(vue@3.5.13(typescript@5.8.2))':
+  '@pruvious/ui@https://pkg.pr.new/pruvious/pruvious/@pruvious/ui@89bc440595c533098380ee06f3115946ed2ef36b(change-case@5.4.4)(fuse.js@7.1.0)(magicast@0.3.5)(rollup@4.34.9)(typescript@5.8.2)(vite@6.2.0(@types/node@22.13.8)(jiti@2.4.2)(terser@5.39.0)(yaml@2.7.0))(vue@3.5.13(typescript@5.8.2))':
     dependencies:
       '@floating-ui/vue': 1.1.6(vue@3.5.13(typescript@5.8.2))
       '@iconify-json/tabler': 1.2.16
       '@nuxt/icon': 1.10.3(magicast@0.3.5)(rollup@4.34.9)(vite@6.2.0(@types/node@22.13.8)(jiti@2.4.2)(terser@5.39.0)(yaml@2.7.0))(vue@3.5.13(typescript@5.8.2))
       '@nuxtjs/color-mode': 3.5.2(magicast@0.3.5)
-      '@pruvious/utils': https://pkg.pr.new/pruvious/pruvious/@pruvious/utils@ea76d9b11f54ae6785fb32d1c0cd7c9aaa2aef4b
+      '@pruvious/utils': https://pkg.pr.new/pruvious/pruvious/@pruvious/utils@89bc440595c533098380ee06f3115946ed2ef36b
       '@shikijs/langs': 2.5.0
       '@shikijs/themes': 2.5.0
       '@shikijs/transformers': 2.5.0
@@ -6360,7 +6361,7 @@ snapshots:
       - vite
       - vue
 
-  '@pruvious/utils@https://pkg.pr.new/pruvious/pruvious/@pruvious/utils@ea76d9b11f54ae6785fb32d1c0cd7c9aaa2aef4b':
+  '@pruvious/utils@https://pkg.pr.new/pruvious/pruvious/@pruvious/utils@89bc440595c533098380ee06f3115946ed2ef36b':
     dependencies:
       defu: 6.1.4
       dot-prop: 9.0.0
@@ -9315,7 +9316,7 @@ snapshots:
 
   protocols@2.0.2: {}
 
-  pruvious@https://pkg.pr.new/pruvious/pruvious/pruvious@ea76d9b11f54ae6785fb32d1c0cd7c9aaa2aef4b(change-case@5.4.4)(fuse.js@7.1.0)(magicast@0.3.5)(rollup@4.34.9)(typescript@5.8.2)(vite@6.2.0(@types/node@22.13.8)(jiti@2.4.2)(terser@5.39.0)(yaml@2.7.0))(vue@3.5.13(typescript@5.8.2)):
+  pruvious@https://pkg.pr.new/pruvious/pruvious/pruvious@89bc440595c533098380ee06f3115946ed2ef36b(change-case@5.4.4)(fuse.js@7.1.0)(magicast@0.3.5)(rollup@4.34.9)(typescript@5.8.2)(vite@6.2.0(@types/node@22.13.8)(jiti@2.4.2)(terser@5.39.0)(yaml@2.7.0))(vue@3.5.13(typescript@5.8.2)):
     dependencies:
       '@babel/generator': 7.26.9
       '@babel/parser': 7.26.9
@@ -9324,11 +9325,11 @@ snapshots:
       '@iconify-json/tabler': 1.2.16
       '@img/sharp-libvips-dev': 1.0.6
       '@img/sharp-wasm32': 0.33.5
-      '@pruvious/i18n': https://pkg.pr.new/pruvious/pruvious/@pruvious/i18n@ea76d9b11f54ae6785fb32d1c0cd7c9aaa2aef4b
-      '@pruvious/orm': https://pkg.pr.new/pruvious/pruvious/@pruvious/orm@ea76d9b11f54ae6785fb32d1c0cd7c9aaa2aef4b
-      '@pruvious/storage': https://pkg.pr.new/pruvious/pruvious/@pruvious/storage@ea76d9b11f54ae6785fb32d1c0cd7c9aaa2aef4b
-      '@pruvious/ui': https://pkg.pr.new/pruvious/pruvious/@pruvious/ui@ea76d9b11f54ae6785fb32d1c0cd7c9aaa2aef4b(change-case@5.4.4)(fuse.js@7.1.0)(magicast@0.3.5)(rollup@4.34.9)(typescript@5.8.2)(vite@6.2.0(@types/node@22.13.8)(jiti@2.4.2)(terser@5.39.0)(yaml@2.7.0))(vue@3.5.13(typescript@5.8.2))
-      '@pruvious/utils': https://pkg.pr.new/pruvious/pruvious/@pruvious/utils@ea76d9b11f54ae6785fb32d1c0cd7c9aaa2aef4b
+      '@pruvious/i18n': https://pkg.pr.new/pruvious/pruvious/@pruvious/i18n@89bc440595c533098380ee06f3115946ed2ef36b
+      '@pruvious/orm': https://pkg.pr.new/pruvious/pruvious/@pruvious/orm@89bc440595c533098380ee06f3115946ed2ef36b
+      '@pruvious/storage': https://pkg.pr.new/pruvious/pruvious/@pruvious/storage@89bc440595c533098380ee06f3115946ed2ef36b
+      '@pruvious/ui': https://pkg.pr.new/pruvious/pruvious/@pruvious/ui@89bc440595c533098380ee06f3115946ed2ef36b(change-case@5.4.4)(fuse.js@7.1.0)(magicast@0.3.5)(rollup@4.34.9)(typescript@5.8.2)(vite@6.2.0(@types/node@22.13.8)(jiti@2.4.2)(terser@5.39.0)(yaml@2.7.0))(vue@3.5.13(typescript@5.8.2))
+      '@pruvious/utils': https://pkg.pr.new/pruvious/pruvious/@pruvious/utils@89bc440595c533098380ee06f3115946ed2ef36b
       '@vueuse/core': 12.7.0(typescript@5.8.2)
       '@vueuse/integrations': 12.7.0(change-case@5.4.4)(focus-trap@7.6.4)(fuse.js@7.1.0)(typescript@5.8.2)
       accept-language-parser: 1.5.0
